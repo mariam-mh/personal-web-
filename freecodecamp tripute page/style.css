@@ -1,0 +1,36 @@
+body{
+    background-color: #eeeeeeb6;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1{
+
+}
+#img-div{
+    background-color: white;
+    padding: 20px;
+}
+#image{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+
+}
+#headline{
+    font-size: 25px;
+}
+ul{
+    text-align: left;
+    line-height: 2em;
+    margin: 25px 40px;
+}
+blockquote{
+    font-family: sans-serif;
+    text-align: left;
+    font-size: .8em;
+    margin-right: 40px;
+}

@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background: #303841;
+    color: rgb(255, 255, 255);
+}
+/* start header  */
+header {
+    background-color: rgb(190, 2, 17);
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+header nav ul{
+    display: flex;
+
+}
+header nav ul li {
+    list-style: none;
+    margin: 0px 20px ;  
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+/* end header */
+/* start walcome section */
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+#welcome-section h1 {
+    font-size: 90px;
+    margin-bottom:20px ;
+}
+#welcome-section p{
+    font-size: 40px;
+    margin-top: 0;
+    color: rgb(255, 15, 15);
+}
+
+/* end welcome section  */
+/* start project section */
+#projects  {
+    background-color: #45567d;
+    height: auto;
+    padding: 15px;
+}
+#projects h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: white solid 3px;
+    width: 35rem;
+    font-size: 2.5rem;
+    padding-bottom: 1.3rem;
+    width: 100%;
+}
+.projects-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project-image {
+    width: 100%;
+    margin: 0;
+}
+.project-title {
+    background-color: #303841;
+    font-size: 1.5rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 0 20px;
+}
+.project-title:hover{
+    background-color: rgb(255, 0, 0);
+    font-size: 1.4rem;
+}
+.btn{
+    background-color: #303841;
+    padding: 10px;
+    margin: 40%;
+   
+    width: 9rem;
+    
+}
+
+.btn:hover{
+    background-color: crimson;
+}
+/* end project section  */
+/* start contact section  */
+#contact {
+    margin: 7%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section-header h2{
+    font-size: 2.5rem;
+    margin-bottom: 0%;
+}
+.contact-section-header p{
+    margin: 2%;
+}
+.profile-links {
+    text-align: center;
+    margin: 7%;
+}
+.profile-links a{
+    margin:5px;
+}
+.contact-links a:hover{
+position: relative;
+top: 5px;
+}
+
+/* end contact section */
+/* start footer  */
+footer{
+    border-top: crimson solid 3px;
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    margin: 2%;
+}
+/* end footer */
+@media (max-width:485px) {
+
+    #welcome-section h1 {
+        font-size: 35px;
+        margin-bottom:20px ;
+    }
+    #welcome-section p{
+        font-size: 20px;
+        margin-top: 0;
+        color: rgb(255, 15, 15);
+    }
+    
+    #projects h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: white solid 3px;
+        width: 35rem;
+        font-size: 1.5rem;
+        padding-bottom: 1.3rem;
+        width: 100%;
+    }
+
+    .btn{
+        background-color: #303841;
+        padding: 10px;
+        margin:10px  35%;
+       
+        width: 9rem;
+        
+    }
+    .contact-section-header h2{
+        font-size: 2rem;
+        margin-bottom: 0%;
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
