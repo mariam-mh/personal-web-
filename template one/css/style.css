@@ -1,0 +1,181 @@
+/*main rulez */
+body{
+    background: rgb(150, 189, 194);
+    font-family: 'Cairo', sans-serif;
+    margin: 0 0 0 0;
+}
+.contener
+{
+    width: 100%;
+    margin: 20px auto;
+    background: white;
+    
+}
+/*end rulez  */
+
+/*start header */
+
+header
+{
+    min-height: 100px ;
+    background: rgb(37, 248, 213);
+    overflow: hidden;
+}
+header .logo 
+{
+    float: left;
+    width: 20%;
+}
+header .logo h1
+{
+    margin-left: 10%;
+}
+header nav 
+{
+    float: right;
+    width: 80%;
+}
+header nav ul 
+{
+    margin: 20px 50px 0 0;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+header nav ul li 
+{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+
+
+}
+ul, ol
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+/*end header  */
+
+
+/* start content  */
+.content
+{
+    min-height: 500px;
+    background: rgba(28, 173, 149, 0.719);
+    overflow: hidden;
+}
+.content .sidebar 
+{
+    float: right;
+    width: 20%;
+    
+    background: #08d8bc;
+
+}
+.content .sidebar .widget
+{
+    width: 90%;
+    margin: 10px auto;
+    background: white;
+    border: solid 1px #ccc;
+
+}
+.content .sidebar .widget .title
+{
+    background: rgba(224, 129, 40, 0.753);
+    color: ;
+    padding: 5px 0;
+    text-align: center;
+}
+.content .sidebar .widget .data 
+{
+    padding-left:10px ;
+}
+.content .sidebar .widget .data img
+{
+    max-width: 80%;
+    margin: 10px 10px;
+}
+
+
+.content .products 
+{
+    float: left;
+    width: 80%;
+    background: #5ec4a6;
+    
+}
+.content .products .product 
+{
+    margin: 1%;
+    width: 23%;
+    float: left;
+    text-align: center;
+    background: cornsilk;
+}
+.content .products .product img
+{
+    max-width: 100%;
+}
+
+
+
+/* end content  */
+
+/* start footer  */
+footer
+{
+    min-height: 100px;
+    background: #ccc;
+}
+
+footer .info
+{
+    min-height: 100px;
+    background: rgba(224, 129, 40, 0.753);
+    text-align: center;
+}
+footer .copyright
+{
+    height:40px;
+    background: rgba(231, 129, 12, 0.904);
+    text-align: center;
+}
+footer .info div 
+{
+    font-weight: bold;
+}
+footer .info ul li 
+{
+
+}
+
+/* end footer  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
