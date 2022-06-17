@@ -1,0 +1,189 @@
+/* general properties */
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color:0;
+}
+.contianer{
+    width: 1250px;
+    overflow: hidden;
+    margin: auto;
+    
+}
+/* end general properties */
+
+/* start header  */
+header{
+    
+    overflow: hidden;
+    
+}
+header .logo {
+    float: right;
+    width: 170px;
+    padding-right: 50px;
+}
+
+
+
+/* start navbar  */
+header nav {
+    font-size: 35px;
+    padding: 20px 0;
+    color: #4f4f4f;
+}
+header nav ul {
+    list-style: none;
+    display: inline-block;    
+}
+header nav ul li {
+    display: inline;
+    padding: 10px;
+    
+}
+header nav .listcolor{
+    background-image: linear-gradient(120deg ,#31adf5, #54ebfc );
+    border-radius: 10px;
+    color: white;
+}
+
+.contact {
+    
+    width: 700px;
+    background: linear-gradient(10deg ,#00b7ff ,#05d2e8);
+    padding: 5px 50px;
+    border-radius: 0 0 50px 0;
+    overflow: hidden;
+}
+header .social {
+    width: 40px;
+}
+.email{
+    width: 200px;
+    float: right;
+}
+.email img {
+    float: left;
+    width: 40px;
+    margin: 0;
+    padding: 0%;
+    
+}
+.email h6{
+    float: left;
+    margin: 0%;
+    padding: 12px 0 0 10px;
+    font-size: 15px;
+    color: white;
+
+}
+
+/* end navbar  */
+
+/* end header  */
+
+/* start section one welcome  */
+.section1  h1 {
+    
+    float: right;
+    font-size: 60px;
+    border-right: solid 10px #00b7ff;
+    border-radius: 5px ;
+    padding: 0 10px;
+
+}
+.section1 h2 {
+    float: right;
+    font-size: 30px;
+    margin: auto;
+    color: #05d2e8;
+}
+.section1 p {
+    font-size: 25px;
+    float: right;
+}
+.card{
+    float: right;
+    margin: 50px 20px ;
+    width: 150px;
+    text-align: center;
+    overflow: hidden;
+    border: #05d2e8 solid 0.5px;
+    border-radius: 10px;
+}
+.card:hover{
+    box-shadow: 2px 2px 5px  #00b7ff,-2px -2px 5px #05d2e8;
+}
+.card img{
+width: 150px;
+}
+.start-image{
+    float: left;
+    width: 800px;
+}
+.hitext{
+    
+    width: 400px;
+    float: right;
+    
+}
+/* end section one welcome */
+
+/* start section two about us  */
+.aboutus {
+    text-align: center;
+    font-size: 25px;
+}
+.about-card {
+    overflow: hidden;
+    width: 50px;
+    margin: auto;
+    text-align: center;
+    display: inline;
+    font-size: 25px;
+    
+    
+
+}
+.about-card img{
+    width: 50%;
+    border-radius: 50%;
+}
+.about-card img:hover{
+    width:55% ;
+}
+.card2{
+    float: right;
+    width: 33.3%;
+    margin: 50px 0;
+
+}
+
+
+/* end section two about us  */
+
+/* start footer  */
+footer{
+    background-image: linear-gradient(120deg ,#31adf5, #54ebfc );
+    text-align: center;
+    padding: 20px 0;
+    border-radius:30px 30px 0 0 ;
+    color: white;
+    font-size:30px ;
+}
+footer img{
+    width: 100px;
+    
+}
+footer ul li{
+list-style: none;
+display: inline;
+padding: 10px;
+}
+footer span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* end footer  */
+
+
