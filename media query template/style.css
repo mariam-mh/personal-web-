@@ -1,0 +1,200 @@
+body
+{
+    margin: 0%; 
+}   
+*{
+    
+    font-family: monospace;
+
+}
+header {
+    background: rgba(233, 57, 57, 0.705);
+    height: 50px;
+    padding: 15px;
+    position: relative;
+    
+}
+header .logo 
+{
+    
+    background: rgb(250, 232, 226);
+    margin: 0;
+    position: absolute;
+    top: 7%;
+    left:4%;
+    border-radius: 9px;
+}
+header nav{
+    margin-top: 5%;
+}
+header nav li
+{
+    list-style:none;
+    float: right ;
+    margin: 10px ;
+    margin-bottom:0px ;   
+    background: white;
+    padding: 11px; 
+    border-radius: 10px 10px 0 0;
+
+}
+/* start sectiion  */
+section{
+    background: rgba(138, 127, 116, 0.068);
+    height:600px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+.section1 .card 
+{
+    width: 120px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: rgb(99, 30, 30);
+    float: right;
+    position: absolute;
+    top:20%;
+    right: 5%;
+}
+.section1 .card2
+{
+    width: 120px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: rgb(216, 59, 59);
+    float: right;
+    position: absolute;
+    top:25%;
+    right: 9%;
+}
+.section1 .text 
+{
+    font-size: 11px;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    
+    
+}
+section .section1 button
+{
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+    padding: 10px;
+    border: crimson solid 3px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+section .section1 button:hover
+{
+    background-color: crimson;
+    color: white;
+
+}
+
+/* end section1  */
+
+/* start section2  */
+.section2{
+    height: 300px;
+    background: white;
+    position: relative;
+    text-align: center;
+
+
+
+}
+
+.section2 .imge img 
+{
+    position: absolute ;
+    top: 10%;
+    left: 1%;
+    width: 150px;
+    float: left;
+
+}
+
+.section2 .discribe
+{
+    
+    margin: 20% 0;
+    float: right;
+    width: 40%;
+    margin: 10%;  
+    margin-bottom: 0%;  
+    margin-top: 5% ;
+}
+/* end section 2  */
+footer {
+    background: rgb(214, 131, 131);
+    height: 50px;
+    text-align: center;
+    padding-top:  20px;
+}
+@media  screen  and (min-width:760px) and (max-width:1023px){
+    .card, .card2 {
+        margin-right: 5%;
+    }
+    .text {
+        margin-left: 5%;
+        
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    img{
+        margin-left: 10%;
+        
+    }
+    header
+    {
+        height: 50px;
+        
+    }
+    header .logo {
+        margin-left: 5%;
+    }
+    header nav 
+    {
+        margin-right: 5%;
+        margin-top: 2.5%;
+    }
+}
+@media screen and (min-width:1024px){
+    .text{
+        margin-left: 10%;
+    
+    }
+    h1{
+        font-size: 45px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    header .logo{
+        margin-left:7%;
+    }
+    header nav{
+        margin-right: 7%;
+        margin-top:2% ;
+    }
+    button {
+        margin: 0 2%;
+        width: 200px;
+        font-size: 25px;
+    }
+    .section2 .imge img  {
+        width: 270px;
+        margin-left: 5%;
+    }
+    
+}
